@@ -3,7 +3,7 @@ module.exports.config = {
   name: "Obot",
   version: "1.0.1",
   hasPermssion: 0,
-  credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
+  credits: "Habib boss☢️",
   description: "goibot",
   commandCategory: "Noprefix",
   usages: "noprefix",
@@ -124,7 +124,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
 
    if ((event.body.toLowerCase() == "হুম") || (event.body.toLowerCase() == "Hum")) {
-     return api.sendMessage("️হুম চোদাইস না মাথা এমনিতেই গরম আছে🤬⛏️😷", threadID);
+     return api.sendMessage( মাথা এমনিতেই গরম আছে🤬⛏️😷", threadID);
    };
 
    if ((event.body.toLowerCase() == "Name") || (event.body.toLowerCase() == "name") || (event.body.toLowerCase() == "Tor nam ki")) {
@@ -144,7 +144,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
 
    if ((event.body.toLowerCase() == "cudi") || (event.body.toLowerCase() == "tor nanire xudi")) {
-     return api.sendMessage(ভালো হয়ে যাও, আল্লাহ সবি দেখতেছে,, !🥱🌝🌚⛏️🌶️ ", threadID);
+     return api.sendMessage("ভালো হয়ে যাও, আল্লাহ সবি দেখতেছে,, !🥱🌝🌚⛏️🌶️ ", threadID);
    };
 
    if ((event.body.toLowerCase() == "😅") || (event.body.toLowerCase() == "...")) {
